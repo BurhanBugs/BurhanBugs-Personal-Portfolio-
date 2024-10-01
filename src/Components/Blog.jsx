@@ -5,7 +5,7 @@ import Footer from './Footer'
 const Blog = () => {
   return (
     <>
-      <div className="blog">
+      <div className="transition-all duration-500 ease-in-out dark:bg-black dark:text-white dark:py-3 blog">
         <div className="heading mt-[10%] flex flex-col justify-center items-center gap-3">
           <h1 className='text-center text-2xl   font-bold'>Blogs</h1>
           <p className="text-[#767676] w-[90vw] text-center sm:w-[70vw] xl:w-[35vw]">

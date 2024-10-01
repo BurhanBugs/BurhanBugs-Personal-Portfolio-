@@ -6,7 +6,7 @@ import HoverImage from './HoverImage'
 const Hero = () => {
   return (
     <>
-      <div className="bg-white xl:w-[73vw] xl:h-[55vh] overflow-hidden mb-20 ">
+      <div className="bg-white transition-all duration-500 ease-in-out dark:bg-black dark:text-white xl:w-[73vw] xl:h-[55vh] overflow-hidden mb-20 ">
         <div className="flex px-3 sm:px-14 items-center py-7   justify-between">
           <div className="info w-[50%]">
             <h1 className=' text-lg sm:text-3xl  md:text-4xl font-mono font-bold '>I'm Burhan Ali Baig <span className='text-[#FFB400]'>Full-Stack</span> Devolper </h1>
@@ -22,22 +22,22 @@ const Hero = () => {
             </button>
 
           </div>
-          <div className=''>
+          <div className='relative'>
 
             <HoverImage />
           </div>
         </div>
 
       </div>
-      <div className="Workhis">
+      <div className="dark:bg-black dark:text-white dark:py-4 Workhis">
         <div className="heading flex flex-col justify-center items-center gap-3">
           <h1 className='text-center text-2xl font-bold'>Work History</h1>
-          <p className="text-slate-800 text-center w-[70vw] sm:w-[70vw] xl:w-[35vw]">
+          <p className="dark:text-[#767676] text-slate-800 text-center w-[70vw] sm:w-[70vw] xl:w-[35vw]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, lectus ut finibus consectetur, ligula arcu sagittis velit, vel consectetur dolor neque id velit.
           </p>
         </div>
 
-        <div className="bg-white xl:w-[73vw] h-full mt-20 py-4 px-9 ">
+        <div className="bg-white transition-all duration-500 ease-in-out dark:bg-black dark:text-white xl:w-[73vw] h-full mt-20 py-4 px-9 ">
           <Workhistroy />
         </div>
 

@@ -5,7 +5,7 @@ import Footer from './Footer'
 const Services = () => {
   return (
     <>
-      <div className="Services">
+      <div className="dark:bg-black dark:text-white dark:py-3 Services">
         <div className="heading mt-[15%] flex flex-col justify-center items-center gap-3">
           <h1 className='text-center text-2xl font-bold'>My Services</h1>
           <p className="text-[#767676] w-[70vw] md:w-[50vw] text-center xl:w-[35vw]">

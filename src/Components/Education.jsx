@@ -5,7 +5,7 @@ import Footer from './Footer'
 const Education = () => {
   return (
     <>
-      <div className='Education'>
+      <div className=' transition-all duration-500 ease-in-out dark:bg-black dark:text-white dark:py-3 Education'>
         <div className="heading mt-[10%] flex flex-col justify-center items-center gap-3">
           <h1 className='text-center text-2xl font-bold'>My Education</h1>
           <p className="text-[#767676] text-center w-[90vw] xl:w-[35vw]">
@@ -14,7 +14,7 @@ const Education = () => {
 
           </p>
         </div>
-        <div className="bg-white xl:w-[73vw] h-fit mt-20 py-4 px-9 ">
+        <div className="dark:bg-black transition-all duration-500 ease-in-out bg-white xl:w-[73vw] h-fit mt-20 py-4 px-9 ">
           <Workhistroy />
         </div>
       </div>

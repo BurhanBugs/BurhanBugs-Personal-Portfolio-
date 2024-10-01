@@ -4,7 +4,7 @@ import Extraskills from './Extraskills'
 const Resume = () => {
   return (
     <>
-      <div className="xl:w-[20vw] sm:w-[40vw] md:w-[30vw] absolute z-20 xl:z-0 w-[90vw] xl:relative h-fit px-4 py-2 bg-white">
+      <div className="xl:w-[20vw] transition-all duration-500 ease-in-out dark:bg-black dark:text-white sm:w-[40vw] md:w-[30vw] absolute z-20 xl:z-0 w-[90vw] xl:relative h-fit px-4 py-2 bg-white">
         <div className="gap-2 flex flex-col items-center ">
           <div className="logo w-24 h-24 border-transparent rounded-[50%] border-4  animate-borderSpin overflow-hidden cursor-pointer">
 

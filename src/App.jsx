@@ -54,7 +54,7 @@ const App = () => {
           </div>
           }
           {isVisible2 ? (
-            <div className={` absolute xl:hidden ${animate2 ? 'animate-slideOutToLeft' : 'animate-slideInFromLeft'}`}>
+            <div className={` absolute z-10 xl:hidden ${animate2 ? 'animate-slideOutToLeft' : 'animate-slideInFromLeft'}`}>
               <Resume2/>
             </div>
           ) : <div>

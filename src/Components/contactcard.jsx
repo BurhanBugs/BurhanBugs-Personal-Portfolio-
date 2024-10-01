@@ -3,7 +3,7 @@ import React from 'react'
 const Contactcard = (props) => {
     return (
         <>
-            <div className="contactcard bg-white hover:scale-95 transition-all duration-300 cursor-pointer hover:shadow-md mx-3 p-5 h-[175px]">
+            <div className="contactcard dark:bg-black bg-white hover:scale-95 transition-all duration-300 cursor-pointer hover:shadow-md mx-3 p-5 h-[175px]">
                 <div className="flex items-center justify-center">
                     <div className='w-9 rounded-full cursor-pointer hover:scale-90 transition-all duration-300 h-9 bg-[#FFB400] flex items-center justify-center p-1'>
                         <img src={props.imgurl} alt="" />

@@ -3,8 +3,8 @@ import React from 'react'
 const BlogCard = (props) => {
     return (
         <>
-            <div className=" blogCard hover:scale-110 hover:shadow-md cursor-pointer transition-all duration-300">
-                <div className="w-64 bg-white overflow-hidden h-fit">
+            <div className="  dark:bg-black dark:py-3 blogCard hover:scale-110 hover:shadow-md cursor-pointer transition-all duration-300">
+                <div className="w-64 dark:bg-black bg-white overflow-hidden h-fit">
                     <div className="image">
                         <img src={props.imgurl} alt="blog image" />
                     </div>

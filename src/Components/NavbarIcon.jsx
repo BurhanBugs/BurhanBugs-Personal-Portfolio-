@@ -8,7 +8,7 @@ const NavbarIcon = (props) => {
     return (
         <div className="flex items-center space-x-2">
             <li
-                className="relative flex items-center rounded-full hover:bg-slate-100 p-2  transition-colors duration-300"
+                className="relative dark:bg-slate-400 dark:hover:bg-slate-100 flex items-center rounded-full hover:bg-slate-100 p-2  transition-colors duration-300"
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
             >
